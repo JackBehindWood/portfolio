@@ -1,0 +1,10 @@
+:root{--bg:#fff;--fg:#1a202c;--muted:#4a5568;--accent:#2b6cb0;--rule:#e2e8f0}
+@media (prefers-color-scheme:dark){:root{--bg:#171923;--fg:#edf2f7;--muted:#a0aec0;--accent:#63b3ed;--rule:#2d3748}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
+header,main,footer{max-width:42rem;margin:0 auto;padding:1rem 16px}
+header{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule)}
+.name{font-weight:700;color:var(--fg);text-decoration:none}nav{display:flex;flex-wrap:wrap;gap:1rem}
+a{color:var(--accent)}nav a[aria-current]{font-weight:700}
+h1{font-size:1.9rem;line-height:1.2}h2{font-size:1.2rem;margin-top:2rem}
+.card{border-top:1px solid var(--rule);padding:.5rem 0 1rem}.meta{color:var(--muted);font-size:.9rem}
+footer{color:var(--muted);font-size:.9rem;border-top:1px solid var(--rule);margin-top:3rem}
