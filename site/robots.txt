@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jackbehindwood.github.io/portfolio/sitemap.xml
