@@ -208,3 +208,12 @@ footer a:hover{color:var(--accent)}
   html.leaving main,html.leaving footer{opacity:0;transform:translateY(-6px);transition:opacity .18s,transform .18s}
 }
 .seek{max-width:var(--read);color:var(--muted);margin:.2rem 0 .8rem}
+.chapter{margin:0 0 1.8rem}
+.chapter h2{margin:0 0 .4rem;font-size:1.2rem;color:var(--accent)}
+.chapter .body p{font-size:1.08rem;max-width:var(--read);margin:.4rem 0}
+.about-story{min-width:0}
+.pull{margin:.6rem 0 1rem;padding:.2rem 0 .2rem 1.1rem;border-left:4px solid var(--accent);font:600 clamp(1.3rem,3vw,1.8rem)/1.3 var(--serif)}
+.seek-block{margin:2.4rem 0;padding:1.4rem 1.5rem;background:var(--chip);border-radius:12px}
+.seek-block h2{margin-top:0}
+.seek-block p{max-width:var(--read)}
+.grid.four{grid-template-columns:repeat(auto-fit,minmax(min(100%,13.5rem),1fr))}
