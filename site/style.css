@@ -217,3 +217,11 @@ footer a:hover{color:var(--accent)}
 .seek-block h2{margin-top:0}
 .seek-block p{max-width:var(--read)}
 .grid.four{grid-template-columns:repeat(auto-fit,minmax(min(100%,13.5rem),1fr))}
+/* Result line on project pages, proof line on the home page, audience entry pages */
+.result{max-width:var(--read);margin:.2rem 0 1.2rem;padding:.8rem 1rem;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 6px 6px 0}
+.result b{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;margin-right:.6rem;color:var(--accent)}
+.proof{max-width:var(--read);margin:.2rem 0 .8rem}
+.hiring{max-width:var(--read);margin:1rem 0 0;font-size:.95rem;color:var(--muted)}
+.points{max-width:var(--read);padding-left:1.2rem}
+.points li{margin:.45rem 0}
+.gap{max-width:var(--read);color:var(--muted)}
